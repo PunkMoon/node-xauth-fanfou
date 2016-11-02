@@ -1,0 +1,22 @@
+{
+  "name": "helloworld",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "latest",
+    "debug": "~2.2.0",
+    "ejs": "^2.5.1",
+    "express": "~4.13.4",
+    "express-session": "^1.14.1",
+    "mashape-oauth": "^0.1.71",
+    "morgan": "~1.7.0",
+    "pug": "latest",
+    "serve-favicon": "~2.3.0",
+    "redis": "0.12.1"
+  }
+}

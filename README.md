@@ -1,4 +1,4 @@
-# node-xauthfanfou
+# node-xauth-fanfou
 基于Express框架完成饭否Xauth验证并提供饭否api调用接口。
 ## 配置
 1.在<http://fanfou.com/apps>申请应用，获取Consumer key以及Consumer secret，填入routes/index.js中。<br/>

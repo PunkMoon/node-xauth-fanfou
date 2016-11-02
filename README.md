@@ -15,4 +15,4 @@
 	param:'{}'//使用post方法时需要向服务端传输的数据
  }
  ```
-6.需要使用get方法时，请求地址为```http://localhost:3000/get```,使用post方法时，请求地址为```http://localhost:3000/post```.
+6.调取饭否api时，ajax的method字段统一为*post*，需要使用get方法调取饭否相关API时，请求地址为```http://localhost:3000/get```,使用post方法时，请求地址为```http://localhost:3000/post```.

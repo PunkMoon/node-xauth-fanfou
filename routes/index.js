@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var OAuth = require('mashape-oauth').OAuth;
-var consumerKey    = 'b9b92b5d183905fac8c0667440a286cd';
-var consumerSecret = 'd607ce147940d6dba52917f09d98ea2c';
+var consumerKey    = 'yourconsumerKey';
+var consumerSecret = 'yourconsumerSecret';
 var oa = new OAuth({ 
   accessUrl:"http://fanfou.com/oauth/access_token",
   consumerKey:consumerKey,
